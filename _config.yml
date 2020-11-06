@@ -1,1 +1,13 @@
+# Welcome to Jekyll!
+title: Astragroup Status Updates
+email: admin@astragroup.info
+description: >- 
+  A simple micro-blog for status updates relating to various AG services.
+  (Hosting, NextCloud, Gitea, Etc.)
+baseurl: ""
+url: "https://status.astragroup.info"
+github_username:  nate2014jatc
+# Build settings
+plugins:
+  - jekyll-feed
 theme: jekyll-theme-hacker
