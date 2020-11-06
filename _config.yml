@@ -10,4 +10,8 @@ github_username:  nate2014jatc
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 theme: jekyll-theme-hacker
+host: 0.0.0.0
+paginate: 5
+

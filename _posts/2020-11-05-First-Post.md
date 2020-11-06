@@ -1,6 +1,8 @@
+---
 layout: post
 title: "First Post"
-date: 2020-11-05 23:40:30 -0000
+date: 2020-11-05 23:40
+---
 
 This is the first post to this new micro-blog.
 Congratulations.
