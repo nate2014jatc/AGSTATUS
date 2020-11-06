@@ -14,4 +14,7 @@ plugins:
 theme: jekyll-theme-hacker
 host: 0.0.0.0
 paginate: 5
+timezone: America/Denver
+encoding: utf-8
+livereload: true
 
