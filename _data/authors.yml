@@ -1,3 +1,7 @@
-author: Rax Ventus
-  picture: img/rax_round.png
-  twitter: raxventus
+Rax Ventus:
+  photo: /_img/rax_round.png
+  socials:
+    - type: Twitter
+      url: https://twitter.com/raxventus
+    - type: GitTea
+      url: https://git.astragroup.info/rax
