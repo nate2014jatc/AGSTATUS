@@ -12,3 +12,7 @@
 .author-bio	img	{
 	float: right;
 }
+
+.author-bio	.social-link	{
+	padding-left: 8px;
+}
