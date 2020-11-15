@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 title: Astragroup Status Updates
 email: admin@astragroup.info
-description: >- 
+description: >-
   A simple micro-blog for status updates relating to various AG services.
   (Hosting, NextCloud, Gitea, Etc.)
 baseurl: ""
@@ -19,4 +19,4 @@ encoding: utf-8
 livereload: true
 livereload_min_delay: 60
 livereload_max_delay: 600
-author: "Nate B."
+author: "Rax Ventus"
