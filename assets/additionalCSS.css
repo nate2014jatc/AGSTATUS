@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'neuropoliticalregular';
+    src: url('../assets/neuropolitical_rg-webfont.woff2') format('woff2'),
+         url('../assets/neuropolitical_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@supports (-webkit-text-stroke: 2px white)  {
+    body    {
+        -webkit-text-stroke: 2px #d38700;
+    }
+}
+@supports (-webkit-text-stroke: 2px white)  {
+    .nav:hover	{
+	-webkit-text-stroke: 2px #00bbc4;
+    }
+}
+
+#large-header	{
+	position: fixed;
+	z-index: -100;
+}
