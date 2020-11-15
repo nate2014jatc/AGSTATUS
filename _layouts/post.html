@@ -9,10 +9,6 @@ layout: default
 
 {{content}}
 
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
-
 {% assign authorData = site.data.authors[page.author] %}
 
 <div class="author-bio">
