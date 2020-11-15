@@ -9,7 +9,7 @@ layout: default
 
 {{content}}
 
-{% assign authorData = site.data.authors[page.author] %}
+{% assign authorData = site.data.authors[page.author | default: site.author] %}
 
 <div class="author-bio">
     <img src="/img/{{ authorData.image }}" alt="{{ page.author }}'s profile picture." />
