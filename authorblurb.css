@@ -2,5 +2,8 @@
 	width: 50%;
 	float: left;
 	border-radius: 12px;
-	border: 2px #0066ff;
+	border-width: 3px;
+	border-style: groove;
+	border-color: #0066ff;
+	
 }
