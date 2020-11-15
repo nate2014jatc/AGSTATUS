@@ -20,6 +20,7 @@ layout: default
     <div class="author-name">{{ site.author }}</div>
     <p class="bio">{{ authorData.bio }}</p>
     {% for social in authorData.socials %}
-    <a href="{{ social.url }}" class="social-link {{ social.type }}-link">{{ social.type }}</a>
+    <a href="{{ social.url }}" class="social-link">{{ social.type }}</a>
+    <br>
     {% endfor %}
 </div>

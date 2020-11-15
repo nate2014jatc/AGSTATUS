@@ -1,9 +1,10 @@
 .author-bio	{
 	width: 50%;
-	float: left;
+	float: right;
 	border-radius: 12px;
 	border-width: 3px;
 	border-style: groove;
 	border-color: #0066ff;
-	
+	padding-left: 4px;
+	margin-top: 5%;
 }
