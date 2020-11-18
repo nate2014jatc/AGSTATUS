@@ -4,3 +4,6 @@
 - name: Primary Domain
   link: https://astragroup.info
   img: AstraGroup_128x128.png
+- name: Cloud
+  link: https://cloud.astragroup.info
+  img: nextCloud-logo.svg
