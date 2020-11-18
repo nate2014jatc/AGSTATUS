@@ -7,3 +7,6 @@
 - name: Cloud
   link: https://cloud.astragroup.info
   img: nextCloud-logo.svg
+- name: Report an Outage
+  link: mailto:status@astragroup.info?Subject=Unreported%20Outage
+  img: wrench.svg
