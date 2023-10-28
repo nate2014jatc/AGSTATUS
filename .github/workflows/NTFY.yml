@@ -4,7 +4,7 @@ on: [page_build]
 jobs:
   NTFY-Manual-Ping:
     runs-on: ubuntu-latest
-    needs: pages-build-deployment
+#    needs: pages-build-deployment
     steps:
       - run: echo "This job was automatically triggered by a ${{ github.event_name }} event."
       - name: Ping NTFY server with update message.
