@@ -9,7 +9,7 @@ jobs:
       - run: echo "This job was automatically triggered by a ${{ github.event_name }} event."
       - name: Ping NTFY server with update message.
         run: |
-          curl curl ntfy.sh \
+          curl ntfy.sh \
           -d '{
             "topic": "Hgh543VzdawHYbZw",
             "message": "A status update has been posted.",
