@@ -1,13 +1,15 @@
-name: ntfy_action
-uses: blackshot/ntfy-action@v1.1
-with:
-  url: https://ntfy.sh/
-  topic: Hgh543VzdawHYbZw
-  tags: update, service, Astra Group
-  title: Astra Group Service Update
-  actions: {
-      "action": "http",
-      "label": "Open Site",
-      "url": "https://status.astragroup.info/",
-  }
-on: page_build
+jobs:
+  NTFY:
+    name: ntfy_action
+    uses: blackshot/ntfy-action@v1.1
+    on: page_build
+    with:
+      url: https://ntfy.sh/
+      topic: Hgh543VzdawHYbZw
+      tags: update, service, Astra Group
+      title: Astra Group Service Update
+      actions: {
+          "action": "http",
+          "label": "Open Site",
+          "url": "https://status.astragroup.info/",
+      }
