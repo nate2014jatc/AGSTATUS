@@ -15,11 +15,9 @@ jobs:
             "message": "A status update has been posted.",
             "actions": [
               {
-                "action": "http",
+                "action": "view",
                 "label": "Visit Site",
-                "url": "https://status.astragroup.info/",
-                "method": "GET"
-                "body": "{\"action\": \"close\"}"
+                "url": "https://status.astragroup.info/"
               }
             ]
           }'
