@@ -10,3 +10,4 @@ with:
       "label": "Open Site",
       "url": "https://status.astragroup.info/",
   }
+on: page_build
