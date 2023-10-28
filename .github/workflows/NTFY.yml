@@ -18,7 +18,6 @@ jobs:
                 "action": "http",
                 "label": "Visit Site",
                 "url": "https://status.astragroup.info/",
-                "method": "PUT",
                 "body": "{\"action\": \"close\"}"
               }
             ]
