@@ -1,0 +1,26 @@
+name: NTFY Manual Ping
+run-name: ${{ github.actor }} has submitted a page build.
+on: [page_build]
+jobs:
+  NTFY-Manual-Ping:
+    runs-on: ubuntu-latest
+    needs: pages-build-deployment
+    steps:
+      - run: echo "This job was automatically triggered by a ${{ github.event_name }} event."
+      - name: Ping NTFY server with update message.
+        run: |
+          curl curl ntfy.sh \
+          -d '{
+            "topic": "Hgh543VzdawHYbZw",
+            "message": "A status update has been posted.",
+            "actions": [
+              {
+                "action": "http",
+                "label": "Visit Site",
+                "url": "https://status.astragroup.info/",
+                "method": "PUT",
+                "body": "{\"action\": \"close\"}"
+              }
+            ]
+          }'
+      - run: echo "Job status is ${{ job.status }}"
