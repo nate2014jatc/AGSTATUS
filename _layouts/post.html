@@ -4,7 +4,7 @@ layout: default
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
+<p class="view">by {{ page.author.name | default: site.author }}</p>
 
 {{content}}
 
@@ -15,8 +15,8 @@ layout: default
 {% assign authorData = site.data.authors[site.author] %}
 
 <div class="author-bio">
-    <img src="/assets/img/{{ authorData.image }}" alt="{{ page.author }}'s profile picture." />
-    <div class="author-name">{{ page.author }}</div>
+    <img src="/assets/img/{{ authorData.image }}" alt="{{ page.author.name | default: site.author }}'s profile picture." />
+    <div class="author-name">{{ page.author.name | default: site.author }}</div>
     <p class="bio">{{ authorData.bio }}</p>
     {% for social in authorData.socials %}
     <a href="{{ social.url }}" class="social-link">{{ social.type }}</a>
