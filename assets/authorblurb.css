@@ -1,10 +1,10 @@
 .author-bio	{
 	width: 50%;
 	float: right;
-	border-radius: 12px;
+	border-radius: 24px;
 	border-width: 7px;
 	border-style: groove;
-	border-color: #0066ff;
+	border-color: #00bbc4;
 	padding-left: 4px;
 	padding-bottom: 4px;
 	margin-top: 5%;
@@ -12,10 +12,18 @@
 
 .author-bio	img	{
 	float: right;
-	max-width: 96px;
-	max-height: 96px;
+	max-width: 128px;
+	max-height: 128px;
 }
 
+
+.author-bio .author-name	{
+	padding-left: 2px;
+}
+
+.author-bio .bio			{
+	padding-left: 4px;
+}
 .author-bio	.social-link	{
 	padding-left: 8px;
 	padding-bottom: 4px;
