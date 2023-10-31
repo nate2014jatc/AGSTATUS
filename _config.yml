@@ -2,7 +2,7 @@
 title: Astragroup Status Updates
 email: admin@astragroup.info
 description: >-
-  A simple micro-blog for status updates relating to various AG services.
+  A micro-blog for status updates relating to various AG services.
   (Hosting, NextCloud, Gitea, Etc.)
 baseurl: ""
 url: "https://status.astragroup.info"
