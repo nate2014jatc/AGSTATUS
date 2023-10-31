@@ -12,10 +12,10 @@ layout: default
 
 <hr>
 
-{% assign authorData = site.data.authors[page.author] | default: site.data.author %}
+{% assign authorData = site.data.authors[page.author] | default: site.data.authors[site.author] %}
 
 <div class="author-bio">
-    <img src="/assets/img/{{ authorData.image }}" alt="{{ page.author.name | default: site.author }}'s profile picture." />
+    <img src="/assets/img/{{ authorData.image }}" alt="{{ page.author.name | default: site.author.name }}'s profile picture." />
     <div class="author-name">{{ page.author.name | default: site.author.name }}</div>
     <p class="bio">{{ authorData.bio }}</p>
     {% for social in authorData.socials %}
