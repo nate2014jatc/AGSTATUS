@@ -24,15 +24,18 @@
 }
 
 .author-bio .bio			{
+	padding-right: 24px;
 	padding-left: 8px;
 	padding-bottom: 4px;
 	border-radius: 12px;
 	border-width: 4px;
 	border-style: groove;
 	border-color: #00bbc4;
+	background-color: rgba(0, 187, 196, 0.4);
 }
 .author-bio	.social-link	{
 	padding-left: 12px;
 	padding-bottom: 4px;
 	color: #d38700;
+	text-decoration-color: #d38700;
 }

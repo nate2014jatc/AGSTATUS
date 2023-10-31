@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<!-- <link rel="stylesheet" href="/authorblurb.css"> -->
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
@@ -16,8 +15,8 @@ layout: default
 {% assign authorData = site.data.authors[site.author] %}
 
 <div class="author-bio">
-    <img src="/assets/img/{{ authorData.image }}" alt="{{ site.author }}'s profile picture." />
-    <div class="author-name">{{ site.author }}</div>
+    <img src="/assets/img/{{ authorData.image }}" alt="{{ page.author }}'s profile picture." />
+    <div class="author-name">{{ page.author }}</div>
     <p class="bio">{{ authorData.bio }}</p>
     {% for social in authorData.socials %}
     <a href="{{ social.url }}" class="social-link">{{ social.type }}</a>
