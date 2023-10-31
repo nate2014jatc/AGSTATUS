@@ -2,19 +2,21 @@
 	width: 50%;
 	float: right;
 	border-radius: 12px;
-	border-width: 3px;
+	border-width: 7px;
 	border-style: groove;
 	border-color: #0066ff;
 	padding-left: 4px;
+	padding-bottom: 4px;
 	margin-top: 5%;
 }
 
 .author-bio	img	{
 	float: right;
-	max-width: 256px;
-	max-height: 256px;
+	max-width: 96px;
+	max-height: 96px;
 }
 
 .author-bio	.social-link	{
 	padding-left: 8px;
+	padding-bottom: 4px;
 }
