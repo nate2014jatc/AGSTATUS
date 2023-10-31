@@ -10,3 +10,6 @@
 - name: Report an Outage
   link: mailto:status@astragroup.info?Subject=Unreported%20Outage
   img: Outage.svg
+- name: Upptime Page
+  link: https://nate2014jatc.github.io/AG-upptime
+  img: upptime_logo-512.png
