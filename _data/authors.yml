@@ -1,10 +1,10 @@
-Rax Ventus:
+RaxVentus:
   name: Rax Ventus
   image: rax_round.png
   bio: Intentionally Left Blank, for testing purposes.
   socials:
-    - type: Twitter
-      url: https://twitter.com/raxventus
+    - type: Mastadon
+      url: https://dc801.space/@Raxventus
     - type: GitTea
       url: https://git.astragroup.info/rax
     - type: Profile Picture By
