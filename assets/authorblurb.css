@@ -11,6 +11,8 @@
 
 .author-bio	img	{
 	float: right;
+	max-width: 256px;
+	max-height: 256px;
 }
 
 .author-bio	.social-link	{
