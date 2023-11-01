@@ -6,7 +6,9 @@
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 		<meta name="theme-color" content="#d38700">
-		<link rel="stylesheet" href="/assets/authorblurb.css">
+		<link rel="stylesheet" href="/assets/authorBlurb.css">
+		<link rel="stylesheet" href="/assets/baseColors.css">
+		<link rel="stylesheet" href="/assets/navFix.css">
 		<link rel="icon" type="image/png" href="/assets/img/AstraGroup_128x128.png">
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6034836920654252" crossorigin="anonymous"></script>
 		{% seo %}
@@ -20,7 +22,7 @@
 				<h2>{{ site.description | default: site.github.project_tagline }}</h2>
 			</div>
 		</header>
-		<nav>
+		<nav class="navDecorations">
 			 {% for item in site.data.navigation %}
 			<a href="{{ item.link }}" {% if page.url == item.link %} style="color: #d38700;"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
 				<span class="icon" style="background: url('/assets/img/{{ item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>
@@ -35,6 +37,7 @@
 				{{ content }}
 			</section>
 		</div>
+
 
 		{% if site.google_analytics %}
 		<script>
