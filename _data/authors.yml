@@ -3,8 +3,8 @@ RaxVentus:
   image: rax_round.png
   bio: Intentionally Left Blank. <br/>For testing purposes, of course.
   socials:
-    - type: Mastodon
-      url: https://dc801.space/@Raxventus
+    - type: Bluesky
+      url: https://bsky.app/profile/raxventus.astragroup.info
     - type: GitTea
       url: https://git.astragroup.info/rax
     - type: Profile Picture By
