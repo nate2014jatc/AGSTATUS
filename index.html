@@ -9,7 +9,7 @@ layout: default
   <a href="{{ post.url}}">
     <h2>{{ post.title }}</h2>
     <p>{{ post.date | date: "%m/%d/%Y %H:%M"}}</p>
-    <p>{{ page.excerpt | truncate_words: 5 }}</p>
+    <p>{{ post.content | strip_html | truncate_words: 5 }}</p>
   </a>
 {% endfor %}
 </ul>
